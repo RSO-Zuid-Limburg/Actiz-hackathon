@@ -1,0 +1,118 @@
+archetype (adl_version=2.0.6; rm_release=1.0.3; uid=76f019be-ad08-35ef-9c89-83a44de017a3; build_uid=7ed8befe-cfe2-3ebe-9f61-35984411e0f1)
+    openEHR-EHR-CLUSTER.expertise.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+    translations = <
+        ["nl"] = <
+            language = <[ISO_639-1::nl]>
+            author = <
+                ["name"] = <"Eline Brader">
+                ["organisation"] = <"Nedap Healthcare">
+                ["email"] = <"eline.brader@nedap.com">
+            >
+        >
+    >
+
+description
+    original_author = <
+        ["name"] = <"Bob Loos, Eline Brader, Stefan Teijgeler">
+        ["organisation"] = <"Nedap Healthcare">
+        ["email"] = <"bob.loos@nedap.com, eline.brader@nedap.com, stefan.teijgeler@nedap.com">
+    >
+    lifecycle_state = <"unmanaged">
+    other_details = <
+        ["MD5-CAM-1.0.1"] = <"89823fd52f234dfaf625cd16f36cc420">
+    >
+    details = <
+        ["en"] = <
+            language = <[ISO_639-1::en]>
+            purpose = <"To record care professionals or other involved party.">
+        >
+        ["nl"] = <
+            language = <[ISO_639-1::nl]>
+            purpose = <"Om de deskundigheid als eigenschap van een groep zorgverleners of andere betrokken partij vast te leggen.">
+        >
+    >
+
+definition
+    CLUSTER[id1] matches {    -- Expertise
+        items matches {
+            ELEMENT[id7] matches {    -- Expertise type
+                value matches {
+                    DV_CODED_TEXT[id8] matches {
+                        defining_code matches {[ac4]}    -- Expertise type
+                    }
+                }
+            }
+            ELEMENT[id9] matches {    -- Numeric id
+                value matches {
+                    DV_IDENTIFIER[id10] matches {
+                        id matches {/[1-9][0-9]*|0/}
+                    }
+                }
+            }
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1"] = <
+                text = <"Expertise">
+                description = <"Expertise">
+            >
+            ["ac4"] = <
+                text = <"Expertise type">
+                description = <"Expertise type. Either 'group' or 'profile'.">
+            >
+            ["at5"] = <
+                text = <"Profile">
+                description = <"Expertise profile.">
+            >
+            ["at6"] = <
+                text = <"Group">
+                description = <"Expertise group.">
+            >
+            ["id7"] = <
+                text = <"Expertise type">
+                description = <"Expertise type.">
+            >
+            ["id9"] = <
+                text = <"Numeric id">
+                description = <"Numeric identifier of the expertise.">
+            >
+        >
+        ["nl"] = <
+            ["id1"] = <
+                text = <"Deskundigheid">
+                description = <"Deskundigheid">
+            >
+            ["ac4"] = <
+                text = <"Type deskundigheid">
+                description = <"Het type deskundigheid. Dit kan 'groep' of 'profiel' zijn.">
+            >
+            ["at5"] = <
+                text = <"Profiel">
+                description = <"Deskundigheidsprofiel">
+            >
+            ["at6"] = <
+                text = <"Groep">
+                description = <"Deskundigheidsgroep">
+            >
+            ["id7"] = <
+                text = <"Type deskundigheid">
+                description = <"Type deskundigheid.">
+            >
+            ["id9"] = <
+                text = <"Numerieke id">
+                description = <"Numerieke identifier van de deskundigheid.">
+            >
+        >
+    >
+    value_sets = <
+        ["ac4"] = <
+            id = <"ac4">
+            members = <"at5", "at6">
+        >
+    >
