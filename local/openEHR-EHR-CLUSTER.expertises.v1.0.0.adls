@@ -1,0 +1,67 @@
+archetype (adl_version=2.0.5; rm_release=1.0.4; uid=7ac41051-54e6-3c4f-9815-b44693fb07dd; build_uid=a8df6eda-aa04-3146-b868-b59bddfd250d)
+    openEHR-EHR-CLUSTER.expertises.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+    translations = <
+        ["nl"] = <
+            language = <[ISO_639-1::nl]>
+            author = <
+                ["name"] = <"Eline Brader">
+                ["organisation"] = <"Nedap Healthcare">
+                ["email"] = <"eline.brader@nedap.com">
+            >
+        >
+    >
+
+description
+    original_author = <
+        ["name"] = <"Eline Brader, Pascal Vos">
+        ["organisation"] = <"Nedap Healthcare">
+        ["email"] = <"eline.brader@nedap.com, pascal.vos@nedap.com">
+    >
+    lifecycle_state = <"unmanaged">
+    other_details = <
+        ["MD5-CAM-1.0.1"] = <"1d8bb2c5bc70d82562b09584c080a653">
+    >
+    details = <
+        ["en"] = <
+            language = <[ISO_639_1::en]>
+            purpose = <"To record a list of expertises.">
+        >
+        ["nl"] = <
+            language = <[ISO-639_1::nl]>
+            purpose = <"Om een lijst van deskundigheden vast te leggen.">
+        >
+    >
+
+definition
+    CLUSTER[id1] matches {    -- Expertises
+        items cardinality matches {1..*; unordered} matches {
+            use_archetype CLUSTER[id2, openEHR-EHR-CLUSTER.expertise.v1.0]
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1"] = <
+                text = <"Expertises">
+                description = <"List of expertises.">
+            >
+            ["id2"] = <
+                text = <"Expertise">
+                description = <"Expertise">
+            >
+        >
+        ["nl"] = <
+            ["id1"] = <
+                text = <"Deskundigheden">
+                description = <"Lijst van deskundigheden.">
+            >
+            ["id2"] = <
+                text = <"Deskundigheid">
+                description = <"Deskundigheid">
+            >
+        >
+    >
