@@ -1,0 +1,130 @@
+archetype (adl_version=2.0.5; rm_release=1.0.4; generated; uid=8149f76e-35ab-3a00-93da-3ac2a03e7713; build_uid=addb57d6-9a94-34f2-83ca-7949ee492031)
+    openEHR-EHR-CLUSTER.problem_classification-SFMPC.v1.0.0
+
+specialize
+    openEHR-EHR-CLUSTER.problem_classification.v1.0
+
+language
+    original_language = <[ISO_639-1::en]>
+    translations = <
+        ["nl"] = <
+            language = <[ISO_639-1::nl]>
+            author = <
+                ["name"] = <"Eline Brader">
+                ["organisation"] = <"Nedap Healthcare">
+                ["email"] = <"eline.brader@nedap.com">
+            >
+        >
+    >
+
+description
+    original_author = <
+        ["name"] = <"Joost Holslag">
+        ["organisation"] = <"Nedap Healtcare">
+        ["email"] = <"joost.holslag@nedap.com">
+    >
+    lifecycle_state = <"unmanaged">
+    other_details = <
+        ["MD5-CAM-1.0.1"] = <"4ae5dcaaa1da08b3aff8eab49ca45682">
+    >
+    details = <
+        ["en"] = <
+            language = <[ISO-639_1::en]>
+            purpose = <"For classifying a problem by capturing a domain according to SFMPC.">
+        >
+        ["nl"] = <
+            language = <[ISO-639_1::nl]>
+            purpose = <"Voor het classificeren van een probleem door het vastleggen van een domein volgens SFMPC.">
+        >
+    >
+
+definition
+    CLUSTER[id1.1] matches {    -- SFMPC classification
+        items matches {
+            ELEMENT[id2.1] matches {    -- SFMPC domains
+                value matches {
+                    DV_CODED_TEXT[id3.1] matches {
+                        defining_code matches {[ac0.2]}    -- SFMPC domain
+                    }
+                }
+            }
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1.1"] = <
+                text = <"SFMPC classification">
+                description = <"SFMPC classification.">
+            >
+            ["id2.1"] = <
+                text = <"SFMPC domains">
+                description = <"Select the relevant domain for this plan element.">
+            >
+            ["ac0.2"] = <
+                text = <"SFMPC domain">
+                description = <"SFMPC domain.">
+            >
+            ["at0.3"] = <
+                text = <"S">
+                description = <"Somatic">
+            >
+            ["at0.4"] = <
+                text = <"F">
+                description = <"Functional">
+            >
+            ["at0.5"] = <
+                text = <"M">
+                description = <"Social">
+            >
+            ["at0.6"] = <
+                text = <"P">
+                description = <"Psychological">
+            >
+            ["at0.7"] = <
+                text = <"C">
+                description = <"Communicative">
+            >
+        >
+        ["nl"] = <
+            ["id1.1"] = <
+                text = <"SFMPC-classificatie">
+                description = <"SFMPC-classificatie.">
+            >
+            ["id2.1"] = <
+                text = <"SFMPC-domeinen">
+                description = <"Selecteer het relevante domein voor dit plan-element.">
+            >
+            ["ac0.2"] = <
+                text = <"SFMPC-domein">
+                description = <"SFMPC-domein.">
+            >
+            ["at0.3"] = <
+                text = <"S">
+                description = <"Somatisch">
+            >
+            ["at0.4"] = <
+                text = <"F">
+                description = <"Functioneel">
+            >
+            ["at0.5"] = <
+                text = <"M">
+                description = <"Maatschappelijk">
+            >
+            ["at0.6"] = <
+                text = <"P">
+                description = <"Psychisch">
+            >
+            ["at0.7"] = <
+                text = <"C">
+                description = <"Communicatief">
+            >
+        >
+    >
+    value_sets = <
+        ["ac0.2"] = <
+            id = <"ac0.2">
+            members = <"at0.3", "at0.4", "at0.5", "at0.6", "at0.7">
+        >
+    >
