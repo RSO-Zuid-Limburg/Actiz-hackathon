@@ -1,0 +1,113 @@
+archetype (adl_version=2.0.6; rm_release=1.0.3; uid=169a0f44-4514-3704-8594-454ac188ce9f; build_uid=e83d9f57-056c-36be-a118-704afb005021)
+    openEHR-EHR-INSTRUCTION.plan_action.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+    translations = <
+        ["nl"] = <
+            language = <[ISO_639-1::nl]>
+            author = <
+                ["name"] = <"Joost Holslag">
+                ["organisation"] = <"Nedap Healthcare">
+                ["email"] = <"joost.holslag@nedap.com">
+            >
+            accreditation = <"MD">
+        >
+    >
+
+description
+    original_author = <
+        ["name"] = <"Eline Brader, Joost Holslag">
+        ["organisation"] = <"Nedap">
+        ["email"] = <"eline.brader@nedap.com, joost.holslag@nedap.com">
+        ["date"] = <"2021-02-15">
+    >
+    lifecycle_state = <"unmanaged">
+    other_details = <
+        ["MD5-CAM-1.0.1"] = <"6a8ff6fe715748f0619d10b0b5842664">
+    >
+    details = <
+        ["en"] = <
+            language = <[ISO_639-1::en]>
+            purpose = <"To describe an action to be taken as part of a care plan.">
+        >
+        ["nl"] = <
+            language = <[ISO_639-1::nl]>
+            purpose = <"Om een actie te beschrijven die uitgevoerd moet worden als onderdeel van een plan.">
+        >
+    >
+
+definition
+    INSTRUCTION[id1] matches {    -- Care plan action
+        activities matches {
+            ACTIVITY[id2] matches {    -- Activity
+                description matches {
+                    ITEM_TREE[id3] matches {
+                        items matches {
+                            ELEMENT[id7] matches {    -- Action description
+                                value matches {
+                                    DV_TEXT[id8] 
+                                }
+                            }
+                            use_archetype CLUSTER[id5, openEHR-EHR-CLUSTER.expertises.v1.0] occurrences matches {0..1} 
+                        }
+                    }
+                }
+                action_archetype_id matches {/.*/}
+            }
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1"] = <
+                text = <"Care plan action">
+                description = <"An action to be taken as part of a care plan.">
+            >
+            ["id2"] = <
+                text = <"Activity">
+                description = <"Activity">
+            >
+            ["id5"] = <
+                text = <"Executor">
+                description = <"The expertises that are designated to execute this action.">
+            >
+            ["id7"] = <
+                text = <"Action description">
+                description = <"Describe the action that needs to be performed.">
+            >
+        >
+        ["nl"] = <
+            ["id1"] = <
+                text = <"Plan actie">
+                description = <"Plan actie">
+            >
+            ["id2"] = <
+                text = <"Activiteit">
+                description = <"Activiteit">
+            >
+            ["id5"] = <
+                text = <"Uitvoerder">
+                description = <"De deskundigheden die aangewezen zijn voor het uitvoeren van deze actie.">
+            >
+            ["id7"] = <
+                text = <"Actiebeschrijving">
+                description = <"Beschrijf de actie die uitgevoerd moet worden.">
+            >
+        >
+    >
+
+annotations
+    documentation = <
+        ["en"] = <
+            ["/narrative"] = <
+                ["type"] = <"hidden">
+            >
+        >
+        ["nl"] = <
+            ["/narrative"] = <
+                ["type"] = <"hidden">
+            >
+        >
+    >
