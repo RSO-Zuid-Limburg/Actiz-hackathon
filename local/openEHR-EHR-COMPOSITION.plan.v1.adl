@@ -1,0 +1,197 @@
+archetype (adl_version=1.4; uid=43593e9f-5e97-3193-bb9f-ef22bb884215)
+	openEHR-EHR-COMPOSITION.plan.v1
+specialize
+	openEHR-EHR-COMPOSITION.care_plan_nedap.v1
+
+concept
+	[at0000.1]
+
+language
+	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			author = <
+				["name"] = <"Eline Brader">
+				["organisation"] = <"Nedap Healthcare">
+				["email"] = <"eline.brader@nedap.com">
+			>
+			accreditation = <"MD">
+		>
+	>
+
+description
+	original_author = <
+		["name"] = <"Joost Holslag">
+		["organisation"] = <"Nedap Healthcare">
+		["email"] = <"joost.holslag@nedap.com">
+	>
+	lifecycle_state = <"in_development">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"Record a care plan.">
+		>
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			purpose = <"Behandelplan vastleggen.">
+		>
+	>
+	other_details = <
+		["MD5-CAM-1.0.1"] = <"ccaccde258036f6c31e7d9dabba88b21">
+		["build_uid"] = <"1af396b2-b301-3465-a5f7-1a25f11abe4a">
+	>
+
+definition
+	COMPOSITION[at0000.1] matches {    -- Plan
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[local::at0.1]    -- Persistent
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {
+				other_context matches {
+					ITEM_TREE[at0001] matches {    -- ITEM_TREE
+						items cardinality matches {0..*; unordered} matches {
+							ELEMENT[at0.5] matches {    -- Status
+								value matches {
+									DV_CODED_TEXT matches {
+										defining_code matches {
+											[local::
+											at0.10,    -- Draft
+											at0.11,    -- Active
+											at0.12]    -- Archived
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				setting matches {
+					DV_CODED_TEXT matches {*}
+				}
+				start_time matches {
+					DV_DATE_TIME matches {*}
+				}
+			}
+		}
+		content cardinality matches {0..*; unordered} matches {
+			EVALUATION[at0.15] matches {    -- Plan element references
+				data matches {
+					ITEM_TREE[at0.16] matches {    -- ITEM_TREE
+						items cardinality matches {0..*; unordered} matches {
+							ELEMENT[at0.17] matches {    -- Plan element reference
+								value matches {
+									DV_EHR_URI matches {*}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	terminologies_available = <"openehr", ...>
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000.1"] = <
+					text = <"Plan">
+					description = <"Plan">
+				>
+				["at0.1"] = <
+					text = <"Persistent">
+					description = <"Persistent">
+				>
+				["at0.5"] = <
+					text = <"Status">
+					description = <"Status">
+				>
+				["at0.10"] = <
+					text = <"Draft">
+					description = <"Draft">
+				>
+				["at0.11"] = <
+					text = <"Active">
+					description = <"Active">
+				>
+				["at0.12"] = <
+					text = <"Archived">
+					description = <"Archived">
+				>
+				["at0.15"] = <
+					text = <"Plan element references">
+					description = <"Plan element references.">
+				>
+				["at0.17"] = <
+					text = <"Plan element reference">
+					description = <"Plan element reference.">
+				>
+				["at0001"] = <
+					text = <"ITEM_TREE">
+					description = <"*">
+				>
+				["at0.16"] = <
+					text = <"ITEM_TREE">
+					description = <"*">
+				>
+			>
+		>
+		["nl"] = <
+			items = <
+				["at0000.1"] = <
+					text = <"Plan">
+					description = <"Plan">
+				>
+				["at0.1"] = <
+					text = <"Persistent">
+					description = <"Persistent">
+				>
+				["at0.5"] = <
+					text = <"Status">
+					description = <"Status">
+				>
+				["at0.10"] = <
+					text = <"Concept">
+					description = <"Concept">
+				>
+				["at0.11"] = <
+					text = <"Actief">
+					description = <"Actief">
+				>
+				["at0.12"] = <
+					text = <"Gearchiveerd">
+					description = <"Gearchiveerd">
+				>
+				["at0.15"] = <
+					text = <"Plan element referenties">
+					description = <"Plan element referenties.">
+				>
+				["at0.17"] = <
+					text = <"Plan element referentie">
+					description = <"Plan element referentie.">
+				>
+				["at0001"] = <
+					text = <"ITEM_TREE">
+					description = <"*">
+				>
+				["at0.16"] = <
+					text = <"ITEM_TREE">
+					description = <"*">
+				>
+			>
+		>
+	>
+	term_bindings = <
+		["openehr"] = <
+			items = <
+				["at0.1"] = <[openehr::431]>
+			>
+		>
+	>
