@@ -1,0 +1,118 @@
+archetype (adl_version=1.4; uid=169a0f44-4514-3704-8594-454ac188ce9f)
+	openEHR-EHR-INSTRUCTION.plan_action.v1
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			author = <
+				["name"] = <"Joost Holslag">
+				["organisation"] = <"Nedap Healthcare">
+				["email"] = <"joost.holslag@nedap.com">
+			>
+			accreditation = <"MD">
+		>
+	>
+
+description
+	original_author = <
+		["date"] = <"2021-02-15">
+		["name"] = <"Eline Brader, Joost Holslag">
+		["organisation"] = <"Nedap">
+		["email"] = <"eline.brader@nedap.com, joost.holslag@nedap.com">
+	>
+	lifecycle_state = <"in_development">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"To describe an action to be taken as part of a care plan.">
+		>
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			purpose = <"Om een actie te beschrijven die uitgevoerd moet worden als onderdeel van een plan.">
+		>
+	>
+	other_details = <
+		["MD5-CAM-1.0.1"] = <"1cd85dda1b8dfeb4bc60f01242e427dd">
+		["build_uid"] = <"0991d908-0267-352f-9b09-0a0644053a96">
+	>
+
+definition
+	INSTRUCTION[at0000] matches {    -- Care plan action
+		activities cardinality matches {0..*; unordered} matches {
+			ACTIVITY[at0001] matches {    -- Activity
+				description matches {
+					ITEM_TREE[at0002] matches {    -- Tree
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0006] matches {    -- Action description
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+							allow_archetype CLUSTER[at0004] occurrences matches {0..1} matches {    -- Executor
+								include
+									archetype_id/value matches {/openEHR-EHR-CLUSTER\.expertises\.v1/}
+							}
+						}
+					}
+				}
+				action_archetype_id matches {/.*/}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Care plan action">
+					description = <"An action to be taken as part of a care plan.">
+				>
+				["at0001"] = <
+					text = <"Activity">
+					description = <"Activity">
+				>
+				["at0002"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Executor">
+					description = <"The expertises that are designated to execute this action.">
+				>
+				["at0006"] = <
+					text = <"Action description">
+					description = <"Describe the action that needs to be performed.">
+				>
+			>
+		>
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"Plan actie">
+					description = <"Plan actie">
+				>
+				["at0001"] = <
+					text = <"Activiteit">
+					description = <"Activiteit">
+				>
+				["at0002"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Uitvoerder">
+					description = <"De deskundigheden die aangewezen zijn voor het uitvoeren van deze actie.">
+				>
+				["at0006"] = <
+					text = <"Actiebeschrijving">
+					description = <"Beschrijf de actie die uitgevoerd moet worden.">
+				>
+			>
+		>
+	>
