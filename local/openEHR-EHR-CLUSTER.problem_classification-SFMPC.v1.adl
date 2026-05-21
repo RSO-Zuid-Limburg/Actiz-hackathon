@@ -1,0 +1,130 @@
+archetype (adl_version=1.4; uid=8149f76e-35ab-3a00-93da-3ac2a03e7713)
+	openEHR-EHR-CLUSTER.problem_classification-SFMPC.v1
+specialize
+	openEHR-EHR-CLUSTER.problem_classification.v1
+
+concept
+	[at0000.1]
+
+language
+	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			author = <
+				["name"] = <"Eline Brader">
+				["organisation"] = <"Nedap Healthcare">
+				["email"] = <"eline.brader@nedap.com">
+			>
+		>
+	>
+
+description
+	original_author = <
+		["name"] = <"Joost Holslag">
+		["organisation"] = <"Nedap Healtcare">
+		["email"] = <"joost.holslag@nedap.com">
+	>
+	lifecycle_state = <"in_development">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"For classifying a problem by capturing a domain according to SFMPC.">
+		>
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			purpose = <"Voor het classificeren van een probleem door het vastleggen van een domein volgens SFMPC.">
+		>
+	>
+	other_details = <
+		["MD5-CAM-1.0.1"] = <"5a278472cdf48cbedd8338544ff64027">
+		["build_uid"] = <"b0535d4c-652d-3eb8-a8df-c0e580a495ff">
+	>
+
+definition
+	CLUSTER[at0000.1] matches {    -- SFMPC classification
+		items cardinality matches {1..*; unordered} matches {
+			ELEMENT[at0001.1] matches {    -- SFMPC domains
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0.3,    -- S
+							at0.4,    -- F
+							at0.5,    -- M
+							at0.6,    -- P
+							at0.7]    -- C
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000.1"] = <
+					text = <"SFMPC classification">
+					description = <"SFMPC classification.">
+				>
+				["at0001.1"] = <
+					text = <"SFMPC domains">
+					description = <"Select the relevant domain for this plan element.">
+				>
+				["at0.3"] = <
+					text = <"S">
+					description = <"Somatic">
+				>
+				["at0.4"] = <
+					text = <"F">
+					description = <"Functional">
+				>
+				["at0.5"] = <
+					text = <"M">
+					description = <"Social">
+				>
+				["at0.6"] = <
+					text = <"P">
+					description = <"Psychological">
+				>
+				["at0.7"] = <
+					text = <"C">
+					description = <"Communicative">
+				>
+			>
+		>
+		["nl"] = <
+			items = <
+				["at0000.1"] = <
+					text = <"SFMPC-classificatie">
+					description = <"SFMPC-classificatie.">
+				>
+				["at0001.1"] = <
+					text = <"SFMPC-domeinen">
+					description = <"Selecteer het relevante domein voor dit plan-element.">
+				>
+				["at0.3"] = <
+					text = <"S">
+					description = <"Somatisch">
+				>
+				["at0.4"] = <
+					text = <"F">
+					description = <"Functioneel">
+				>
+				["at0.5"] = <
+					text = <"M">
+					description = <"Maatschappelijk">
+				>
+				["at0.6"] = <
+					text = <"P">
+					description = <"Psychisch">
+				>
+				["at0.7"] = <
+					text = <"C">
+					description = <"Communicatief">
+				>
+			>
+		>
+	>
