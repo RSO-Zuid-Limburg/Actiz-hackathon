@@ -1,0 +1,230 @@
+{
+    "name": {
+        "_type": "DV_TEXT",
+        "value": "SFMPC-behandelplan",
+        "mappings": []
+    },
+    "links": [],
+    "content": [
+        {
+            "data": {
+                "name": {
+                    "_type": "DV_TEXT",
+                    "value": "",
+                    "mappings": []
+                },
+                "_type": "ITEM_TREE",
+                "items": [
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/1536"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/699"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/1537"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/594"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/1538"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/1539"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/1589"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/1540"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/1541"
+                        },
+                        "archetype_node_id": "id0.17"
+                    },
+                    {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "Plan element referentie",
+                            "mappings": []
+                        },
+                        "_type": "ELEMENT",
+                        "links": [],
+                        "value": {
+                            "_type": "DV_EHR_URI",
+                            "value": "ehr:compositions/1542"
+                        },
+                        "archetype_node_id": "id0.17"
+                    }
+                ],
+                "links": [],
+                "archetype_node_id": "id0.16"
+            },
+            "name": {
+                "_type": "DV_TEXT",
+                "value": "SFMPC-plan element referenties",
+                "mappings": []
+            },
+            "_type": "EVALUATION",
+            "links": [],
+            "subject": {
+                "_type": "PARTY_SELF"
+            },
+            "encoding": {
+                "code_string": "UTF-8",
+                "terminology_id": {
+                    "value": "IANA_character-sets"
+                }
+            },
+            "language": {
+                "code_string": "nl",
+                "terminology_id": {
+                    "value": "ISO_639-1"
+                }
+            },
+            "archetype_node_id": "id0.15.1",
+            "other_participations": []
+        }
+    ],
+    "category": {
+        "value": "Persistent",
+        "mappings": [],
+        "defining_code": {
+            "code_string": "431",
+            "terminology_id": {
+                "value": "openehr"
+            }
+        }
+    },
+    "composer": {
+        "name": "Teake Blom",
+        "_type": "PARTY_IDENTIFIED",
+        "identifiers": [],
+        "external_ref": {
+            "id": {
+                "_type": "HIER_OBJECT_ID",
+                "value": "com.nedap.TE4087.employee::239"
+            },
+            "type": "PERSON",
+            "namespace": "demographic"
+        }
+    },
+    "language": {
+        "code_string": "nl",
+        "terminology_id": {
+            "value": "ISO_639-1"
+        }
+    },
+    "territory": {
+        "code_string": "NL",
+        "terminology_id": {
+            "value": "ISO_3166-1"
+        }
+    },
+    "archetype_details": {
+        "rm_version": "1.0.4",
+        "archetype_id": {
+            "value": "openEHR-EHR-COMPOSITION.plan-SFMPC.v1.0.0"
+        }
+    },
+    "archetype_node_id": "id1.1.1"
+}

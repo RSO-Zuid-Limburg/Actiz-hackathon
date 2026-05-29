@@ -1,0 +1,563 @@
+{
+    "name": {
+        "_type": "DV_TEXT",
+        "value": "SFMPC-plan element",
+        "mappings": []
+    },
+    "links": [],
+    "content": [
+        {
+            "name": {
+                "_type": "DV_TEXT",
+                "value": "Probleem",
+                "mappings": []
+            },
+            "_type": "SECTION",
+            "items": [
+                {
+                    "data": {
+                        "name": {
+                            "_type": "DV_TEXT",
+                            "value": "",
+                            "mappings": []
+                        },
+                        "_type": "ITEM_TREE",
+                        "items": [
+                            {
+                                "name": {
+                                    "_type": "DV_TEXT",
+                                    "value": "Probleem SFMPC classificatie",
+                                    "mappings": []
+                                },
+                                "_type": "CLUSTER",
+                                "items": [
+                                    {
+                                        "name": {
+                                            "_type": "DV_TEXT",
+                                            "value": "SFMPC-domeinen",
+                                            "mappings": []
+                                        },
+                                        "_type": "ELEMENT",
+                                        "links": [],
+                                        "value": {
+                                            "_type": "DV_CODED_TEXT",
+                                            "value": "F",
+                                            "mappings": [],
+                                            "defining_code": {
+                                                "code_string": "at0.4",
+                                                "terminology_id": {
+                                                    "value": "ac0.2"
+                                                }
+                                            }
+                                        },
+                                        "archetype_node_id": "id2.1"
+                                    }
+                                ],
+                                "links": [],
+                                "archetype_details": {
+                                    "rm_version": "1.0.4",
+                                    "archetype_id": {
+                                        "value": "openEHR-EHR-CLUSTER.problem_classification-SFMPC.v1.0.0"
+                                    }
+                                },
+                                "archetype_node_id": "id44.0.1"
+                            },
+                            {
+                                "name": {
+                                    "_type": "DV_TEXT",
+                                    "value": "Probleem",
+                                    "mappings": []
+                                },
+                                "_type": "ELEMENT",
+                                "links": [],
+                                "value": {
+                                    "_type": "DV_TEXT",
+                                    "value": "Patient kan nog niet traplopen, maar dit wordt beter",
+                                    "mappings": []
+                                },
+                                "archetype_node_id": "id3.0.1"
+                            }
+                        ],
+                        "links": [],
+                        "archetype_node_id": "id2"
+                    },
+                    "name": {
+                        "_type": "DV_TEXT",
+                        "value": "Probleem",
+                        "mappings": []
+                    },
+                    "_type": "EVALUATION",
+                    "links": [],
+                    "subject": {
+                        "_type": "PARTY_SELF"
+                    },
+                    "encoding": {
+                        "code_string": "UTF-8",
+                        "terminology_id": {
+                            "value": "IANA_character-sets"
+                        }
+                    },
+                    "language": {
+                        "code_string": "nl",
+                        "terminology_id": {
+                            "value": "ISO_639-1"
+                        }
+                    },
+                    "archetype_details": {
+                        "rm_version": "1.0.4",
+                        "archetype_id": {
+                            "value": "openEHR-EHR-EVALUATION.problem_diagnosis-ovl2.v1.0.0"
+                        }
+                    },
+                    "archetype_node_id": "id0.4.1",
+                    "other_participations": []
+                }
+            ],
+            "links": [],
+            "archetype_node_id": "id0.3.1"
+        },
+        {
+            "uid": {
+                "_type": "HIER_OBJECT_ID",
+                "value": "fb3df3dd-b73c-4b5f-9927-0591cd45475b"
+            },
+            "name": {
+                "_type": "DV_TEXT",
+                "value": "Doel en acties",
+                "mappings": []
+            },
+            "_type": "SECTION",
+            "items": [
+                {
+                    "name": {
+                        "_type": "DV_TEXT",
+                        "value": "Doel",
+                        "mappings": []
+                    },
+                    "_type": "SECTION",
+                    "items": [
+                        {
+                            "data": {
+                                "name": {
+                                    "_type": "DV_TEXT",
+                                    "value": "Tree",
+                                    "mappings": []
+                                },
+                                "_type": "ITEM_TREE",
+                                "items": [
+                                    {
+                                        "name": {
+                                            "_type": "DV_TEXT",
+                                            "value": "Doelbeschrijving",
+                                            "mappings": []
+                                        },
+                                        "_type": "ELEMENT",
+                                        "links": [],
+                                        "value": {
+                                            "_type": "DV_TEXT",
+                                            "value": "zelfstandig kunnen traplopen",
+                                            "mappings": []
+                                        },
+                                        "archetype_node_id": "id13.1"
+                                    }
+                                ],
+                                "links": [],
+                                "archetype_node_id": "id2"
+                            },
+                            "name": {
+                                "_type": "DV_TEXT",
+                                "value": "Doel",
+                                "mappings": []
+                            },
+                            "_type": "EVALUATION",
+                            "links": [],
+                            "subject": {
+                                "_type": "PARTY_SELF"
+                            },
+                            "encoding": {
+                                "code_string": "UTF-8",
+                                "terminology_id": {
+                                    "value": "IANA_character-sets"
+                                }
+                            },
+                            "language": {
+                                "code_string": "nl",
+                                "terminology_id": {
+                                    "value": "ISO_639-1"
+                                }
+                            },
+                            "archetype_details": {
+                                "rm_version": "1.0.4",
+                                "archetype_id": {
+                                    "value": "openEHR-EHR-EVALUATION.goal-ovl.v1.0.0"
+                                }
+                            },
+                            "archetype_node_id": "id0.9.1",
+                            "other_participations": []
+                        }
+                    ],
+                    "links": [],
+                    "archetype_node_id": "id0.8"
+                },
+                {
+                    "name": {
+                        "_type": "DV_TEXT",
+                        "value": "Acties",
+                        "mappings": []
+                    },
+                    "_type": "SECTION",
+                    "items": [
+                        {
+                            "uid": {
+                                "_type": "HIER_OBJECT_ID",
+                                "value": "5db44cb2-78ac-4e89-9e77-2d1beda65a63"
+                            },
+                            "name": {
+                                "_type": "DV_TEXT",
+                                "value": "Actie",
+                                "mappings": []
+                            },
+                            "_type": "INSTRUCTION",
+                            "links": [],
+                            "subject": {
+                                "_type": "PARTY_SELF"
+                            },
+                            "encoding": {
+                                "code_string": "UTF-8",
+                                "terminology_id": {
+                                    "value": "IANA_character-sets"
+                                }
+                            },
+                            "language": {
+                                "code_string": "nl",
+                                "terminology_id": {
+                                    "value": "ISO_639-1"
+                                }
+                            },
+                            "narrative": {
+                                "_type": "DV_TEXT",
+                                "value": "oefeningen zelfstandig oefenen met traplopen",
+                                "mappings": []
+                            },
+                            "activities": [
+                                {
+                                    "name": {
+                                        "_type": "DV_TEXT",
+                                        "value": "Activiteit",
+                                        "mappings": []
+                                    },
+                                    "links": [],
+                                    "description": {
+                                        "name": {
+                                            "_type": "DV_TEXT",
+                                            "value": "",
+                                            "mappings": []
+                                        },
+                                        "_type": "ITEM_TREE",
+                                        "items": [
+                                            {
+                                                "name": {
+                                                    "_type": "DV_TEXT",
+                                                    "value": "Actiebeschrijving",
+                                                    "mappings": []
+                                                },
+                                                "_type": "ELEMENT",
+                                                "links": [],
+                                                "value": {
+                                                    "_type": "DV_TEXT",
+                                                    "value": "oefeningen zelfstandig oefenen met traplopen",
+                                                    "mappings": []
+                                                },
+                                                "archetype_node_id": "id7"
+                                            },
+                                            {
+                                                "name": {
+                                                    "_type": "DV_TEXT",
+                                                    "value": "Relevante deskundigheden",
+                                                    "mappings": []
+                                                },
+                                                "_type": "CLUSTER",
+                                                "items": [
+                                                    {
+                                                        "name": {
+                                                            "_type": "DV_TEXT",
+                                                            "value": "Deskundigheid",
+                                                            "mappings": []
+                                                        },
+                                                        "_type": "CLUSTER",
+                                                        "items": [
+                                                            {
+                                                                "name": {
+                                                                    "_type": "DV_TEXT",
+                                                                    "value": "Type deskundigheid",
+                                                                    "mappings": []
+                                                                },
+                                                                "_type": "ELEMENT",
+                                                                "links": [],
+                                                                "value": {
+                                                                    "_type": "DV_CODED_TEXT",
+                                                                    "value": "Profiel",
+                                                                    "mappings": [],
+                                                                    "defining_code": {
+                                                                        "code_string": "at5",
+                                                                        "terminology_id": {
+                                                                            "value": "ac4"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "archetype_node_id": "id7"
+                                                            },
+                                                            {
+                                                                "name": {
+                                                                    "_type": "DV_TEXT",
+                                                                    "value": "Numerieke id",
+                                                                    "mappings": []
+                                                                },
+                                                                "_type": "ELEMENT",
+                                                                "links": [],
+                                                                "value": {
+                                                                    "id": "8",
+                                                                    "_type": "DV_IDENTIFIER"
+                                                                },
+                                                                "archetype_node_id": "id9"
+                                                            }
+                                                        ],
+                                                        "links": [],
+                                                        "archetype_details": {
+                                                            "rm_version": "1.0.4",
+                                                            "archetype_id": {
+                                                                "value": "openEHR-EHR-CLUSTER.expertise.v1.0.0"
+                                                            }
+                                                        },
+                                                        "archetype_node_id": "id2"
+                                                    }
+                                                ],
+                                                "links": [],
+                                                "archetype_details": {
+                                                    "rm_version": "1.0.4",
+                                                    "archetype_id": {
+                                                        "value": "openEHR-EHR-CLUSTER.expertises-ovl.v1.0.0"
+                                                    }
+                                                },
+                                                "archetype_node_id": "id5.1"
+                                            }
+                                        ],
+                                        "links": [],
+                                        "archetype_node_id": "id3"
+                                    },
+                                    "archetype_node_id": "id2",
+                                    "action_archetype_id": "/.*/"
+                                }
+                            ],
+                            "archetype_details": {
+                                "rm_version": "1.0.4",
+                                "archetype_id": {
+                                    "value": "openEHR-EHR-INSTRUCTION.plan_action-ovl.v1.0.0"
+                                }
+                            },
+                            "archetype_node_id": "id0.11.1",
+                            "other_participations": []
+                        },
+                        {
+                            "uid": {
+                                "_type": "HIER_OBJECT_ID",
+                                "value": "3397e98e-7f83-4444-b392-0dd2457adc3d"
+                            },
+                            "name": {
+                                "_type": "DV_TEXT",
+                                "value": "Actie",
+                                "mappings": []
+                            },
+                            "_type": "INSTRUCTION",
+                            "links": [],
+                            "subject": {
+                                "_type": "PARTY_SELF"
+                            },
+                            "encoding": {
+                                "code_string": "UTF-8",
+                                "terminology_id": {
+                                    "value": "IANA_character-sets"
+                                }
+                            },
+                            "language": {
+                                "code_string": "nl",
+                                "terminology_id": {
+                                    "value": "ISO_639-1"
+                                }
+                            },
+                            "narrative": {
+                                "_type": "DV_TEXT",
+                                "value": "krachttraining",
+                                "mappings": []
+                            },
+                            "activities": [
+                                {
+                                    "name": {
+                                        "_type": "DV_TEXT",
+                                        "value": "Activiteit",
+                                        "mappings": []
+                                    },
+                                    "links": [],
+                                    "description": {
+                                        "name": {
+                                            "_type": "DV_TEXT",
+                                            "value": "",
+                                            "mappings": []
+                                        },
+                                        "_type": "ITEM_TREE",
+                                        "items": [
+                                            {
+                                                "name": {
+                                                    "_type": "DV_TEXT",
+                                                    "value": "Actiebeschrijving",
+                                                    "mappings": []
+                                                },
+                                                "_type": "ELEMENT",
+                                                "links": [],
+                                                "value": {
+                                                    "_type": "DV_TEXT",
+                                                    "value": "krachttraining",
+                                                    "mappings": []
+                                                },
+                                                "archetype_node_id": "id7"
+                                            },
+                                            {
+                                                "name": {
+                                                    "_type": "DV_TEXT",
+                                                    "value": "Relevante deskundigheden",
+                                                    "mappings": []
+                                                },
+                                                "_type": "CLUSTER",
+                                                "items": [
+                                                    {
+                                                        "name": {
+                                                            "_type": "DV_TEXT",
+                                                            "value": "Deskundigheid",
+                                                            "mappings": []
+                                                        },
+                                                        "_type": "CLUSTER",
+                                                        "items": [
+                                                            {
+                                                                "name": {
+                                                                    "_type": "DV_TEXT",
+                                                                    "value": "Type deskundigheid",
+                                                                    "mappings": []
+                                                                },
+                                                                "_type": "ELEMENT",
+                                                                "links": [],
+                                                                "value": {
+                                                                    "_type": "DV_CODED_TEXT",
+                                                                    "value": "Profiel",
+                                                                    "mappings": [],
+                                                                    "defining_code": {
+                                                                        "code_string": "at5",
+                                                                        "terminology_id": {
+                                                                            "value": "ac4"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "archetype_node_id": "id7"
+                                                            },
+                                                            {
+                                                                "name": {
+                                                                    "_type": "DV_TEXT",
+                                                                    "value": "Numerieke id",
+                                                                    "mappings": []
+                                                                },
+                                                                "_type": "ELEMENT",
+                                                                "links": [],
+                                                                "value": {
+                                                                    "id": "31",
+                                                                    "_type": "DV_IDENTIFIER"
+                                                                },
+                                                                "archetype_node_id": "id9"
+                                                            }
+                                                        ],
+                                                        "links": [],
+                                                        "archetype_details": {
+                                                            "rm_version": "1.0.4",
+                                                            "archetype_id": {
+                                                                "value": "openEHR-EHR-CLUSTER.expertise.v1.0.0"
+                                                            }
+                                                        },
+                                                        "archetype_node_id": "id2"
+                                                    }
+                                                ],
+                                                "links": [],
+                                                "archetype_details": {
+                                                    "rm_version": "1.0.4",
+                                                    "archetype_id": {
+                                                        "value": "openEHR-EHR-CLUSTER.expertises-ovl.v1.0.0"
+                                                    }
+                                                },
+                                                "archetype_node_id": "id5.1"
+                                            }
+                                        ],
+                                        "links": [],
+                                        "archetype_node_id": "id3"
+                                    },
+                                    "archetype_node_id": "id2",
+                                    "action_archetype_id": "/.*/"
+                                }
+                            ],
+                            "archetype_details": {
+                                "rm_version": "1.0.4",
+                                "archetype_id": {
+                                    "value": "openEHR-EHR-INSTRUCTION.plan_action-ovl.v1.0.0"
+                                }
+                            },
+                            "archetype_node_id": "id0.11.1",
+                            "other_participations": []
+                        }
+                    ],
+                    "links": [],
+                    "archetype_node_id": "id0.10"
+                }
+            ],
+            "links": [],
+            "archetype_node_id": "id0.5"
+        }
+    ],
+    "category": {
+        "value": "Episodisch",
+        "mappings": [],
+        "defining_code": {
+            "code_string": "451",
+            "terminology_id": {
+                "value": "openehr"
+            }
+        }
+    },
+    "composer": {
+        "name": "Dhr. Rogier van Vliet",
+        "_type": "PARTY_IDENTIFIED",
+        "identifiers": [],
+        "external_ref": {
+            "id": {
+                "_type": "HIER_OBJECT_ID",
+                "value": "com.nedap.TE4087.employee::28"
+            },
+            "type": "PERSON",
+            "namespace": "demographic"
+        }
+    },
+    "language": {
+        "code_string": "nl",
+        "terminology_id": {
+            "value": "ISO_639-1"
+        }
+    },
+    "territory": {
+        "code_string": "NL",
+        "terminology_id": {
+            "value": "ISO_3166-1"
+        }
+    },
+    "archetype_details": {
+        "rm_version": "1.0.4",
+        "archetype_id": {
+            "value": "openEHR-EHR-COMPOSITION.plan_element-SFMPC.v1.0.0"
+        }
+    },
+    "archetype_node_id": "id1.1.1"
+}
