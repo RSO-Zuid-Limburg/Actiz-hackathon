@@ -66,6 +66,14 @@
       "mappings" : [ ]
     },
     "archetype_node_id" : "at0.3.1",
+    "archetype_details" : {
+      "_type" : "ARCHETYPED",
+      "archetype_id" : {
+        "_type" : "ARCHETYPE_ID",
+        "value" : "openEHR-EHR-SECTION.adhoc.v1"
+      },
+      "rm_version" : "1.0.4"
+    },
     "links" : [ ],
     "items" : [ {
       "_type" : "EVALUATION",
@@ -182,6 +190,14 @@
       "_type" : "HIER_OBJECT_ID",
       "value" : "fb3df3dd-b73c-4b5f-9927-0591cd45475b"
     },
+    "archetype_details" : {
+      "_type" : "ARCHETYPED",
+      "archetype_id" : {
+        "_type" : "ARCHETYPE_ID",
+        "value" : "openEHR-EHR-SECTION.adhoc.v1"
+      },
+      "rm_version" : "1.0.4"
+    },
     "links" : [ ],
     "items" : [ {
       "_type" : "SECTION",
@@ -191,6 +207,14 @@
         "mappings" : [ ]
       },
       "archetype_node_id" : "at0.8",
+      "archetype_details" : {
+        "_type" : "ARCHETYPED",
+        "archetype_id" : {
+          "_type" : "ARCHETYPE_ID",
+          "value" : "openEHR-EHR-SECTION.adhoc.v1"
+        },
+        "rm_version" : "1.0.4"
+      },
       "links" : [ ],
       "items" : [ {
         "_type" : "EVALUATION",
@@ -263,6 +287,14 @@
         "mappings" : [ ]
       },
       "archetype_node_id" : "at0.10",
+      "archetype_details" : {
+        "_type" : "ARCHETYPED",
+        "archetype_id" : {
+          "_type" : "ARCHETYPE_ID",
+          "value" : "openEHR-EHR-SECTION.adhoc.v1"
+        },
+        "rm_version" : "1.0.4"
+      },
       "links" : [ ],
       "items" : [ {
         "_type" : "INSTRUCTION",
