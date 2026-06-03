@@ -5,7 +5,7 @@
     "value" : "SFMPC-plan element",
     "mappings" : [ ]
   },
-  "archetype_node_id" : "at0000.1.1",
+  "archetype_node_id" : "openEHR-EHR-COMPOSITION.plan_element-SFMPC.v1",
   "archetype_details" : {
     "_type" : "ARCHETYPED",
     "archetype_id" : {
@@ -74,7 +74,7 @@
         "value" : "Probleem",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0.4.1",
+      "archetype_node_id" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -120,7 +120,7 @@
             "value" : "Probleem SFMPC classificatie",
             "mappings" : [ ]
           },
-          "archetype_node_id" : "at0043.0.1",
+          "archetype_node_id" : "openEHR-EHR-CLUSTER.problem_classification-SFMPC.v1",
           "archetype_details" : {
             "_type" : "ARCHETYPED",
             "archetype_id" : {
@@ -199,7 +199,7 @@
           "value" : "Doel",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.9.1",
+        "archetype_node_id" : "openEHR-EHR-EVALUATION.goal.v1",
         "archetype_details" : {
           "_type" : "ARCHETYPED",
           "archetype_id" : {
@@ -271,7 +271,7 @@
           "value" : "Actie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.11.1",
+        "archetype_node_id" : "openEHR-EHR-INSTRUCTION.plan_action.v1",
         "uid" : {
           "_type" : "HIER_OBJECT_ID",
           "value" : "0bb2edb2-d9a7-481f-a064-08b703a6b9a2"
@@ -349,7 +349,7 @@
                 "value" : "Relevante deskundigheden",
                 "mappings" : [ ]
               },
-              "archetype_node_id" : "at0004.1",
+              "archetype_node_id" : "openEHR-EHR-CLUSTER.expertises.v1",
               "archetype_details" : {
                 "_type" : "ARCHETYPED",
                 "archetype_id" : {
@@ -366,7 +366,7 @@
                   "value" : "Deskundigheid",
                   "mappings" : [ ]
                 },
-                "archetype_node_id" : "at0001",
+                "archetype_node_id" : "openEHR-EHR-CLUSTER.expertise.v1",
                 "archetype_details" : {
                   "_type" : "ARCHETYPED",
                   "archetype_id" : {
@@ -448,7 +448,7 @@
           "value" : "Doel",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.9.1",
+        "archetype_node_id" : "openEHR-EHR-EVALUATION.goal.v1",
         "archetype_details" : {
           "_type" : "ARCHETYPED",
           "archetype_id" : {
@@ -520,7 +520,7 @@
           "value" : "Actie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.11.1",
+        "archetype_node_id" : "openEHR-EHR-INSTRUCTION.plan_action.v1",
         "uid" : {
           "_type" : "HIER_OBJECT_ID",
           "value" : "087ae527-80c4-4d28-ac9d-81fa39928a62"
@@ -598,7 +598,7 @@
                 "value" : "Relevante deskundigheden",
                 "mappings" : [ ]
               },
-              "archetype_node_id" : "at0004.1",
+              "archetype_node_id" : "openEHR-EHR-CLUSTER.expertises.v1",
               "archetype_details" : {
                 "_type" : "ARCHETYPED",
                 "archetype_id" : {
@@ -615,7 +615,7 @@
                   "value" : "Deskundigheid",
                   "mappings" : [ ]
                 },
-                "archetype_node_id" : "at0001",
+                "archetype_node_id" : "openEHR-EHR-CLUSTER.expertise.v1",
                 "archetype_details" : {
                   "_type" : "ARCHETYPED",
                   "archetype_id" : {
