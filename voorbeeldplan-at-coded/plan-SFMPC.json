@@ -33,7 +33,7 @@
   },
   "category" : {
     "_type" : "DV_CODED_TEXT",
-    "value" : "Persistent",
+    "value" : "persistent",
     "mappings" : [ ],
     "defining_code" : {
       "_type" : "CODE_PHRASE",
