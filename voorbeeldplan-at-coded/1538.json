@@ -1,0 +1,576 @@
+{
+  "_type" : "COMPOSITION",
+  "name" : {
+    "_type" : "DV_TEXT",
+    "value" : "SFMPC-plan element",
+    "mappings" : [ ]
+  },
+  "archetype_node_id" : "at0000.1.1",
+  "archetype_details" : {
+    "_type" : "ARCHETYPED",
+    "archetype_id" : {
+      "_type" : "ARCHETYPE_ID",
+      "value" : "openEHR-EHR-COMPOSITION.plan_element-SFMPC.v1.0.0"
+    },
+    "rm_version" : "1.0.4"
+  },
+  "links" : [ ],
+  "language" : {
+    "_type" : "CODE_PHRASE",
+    "terminology_id" : {
+      "_type" : "TERMINOLOGY_ID",
+      "value" : "ISO_639-1"
+    },
+    "code_string" : "nl"
+  },
+  "territory" : {
+    "_type" : "CODE_PHRASE",
+    "terminology_id" : {
+      "_type" : "TERMINOLOGY_ID",
+      "value" : "ISO_3166-1"
+    },
+    "code_string" : "NL"
+  },
+  "category" : {
+    "_type" : "DV_CODED_TEXT",
+    "value" : "Episodisch",
+    "mappings" : [ ],
+    "defining_code" : {
+      "_type" : "CODE_PHRASE",
+      "terminology_id" : {
+        "_type" : "TERMINOLOGY_ID",
+        "value" : "openehr"
+      },
+      "code_string" : "451"
+    }
+  },
+  "composer" : {
+    "_type" : "PARTY_IDENTIFIED",
+    "external_ref" : {
+      "_type" : "PARTY_REF",
+      "namespace" : "demographic",
+      "type" : "PERSON",
+      "id" : {
+        "_type" : "HIER_OBJECT_ID",
+        "value" : "com.nedap.TE4087.employee::1"
+      }
+    },
+    "name" : "ad administrator",
+    "identifiers" : [ ]
+  },
+  "content" : [ {
+    "_type" : "SECTION",
+    "name" : {
+      "_type" : "DV_TEXT",
+      "value" : "Probleem",
+      "mappings" : [ ]
+    },
+    "archetype_node_id" : "at0.3.1",
+    "links" : [ ],
+    "items" : [ {
+      "_type" : "EVALUATION",
+      "name" : {
+        "_type" : "DV_TEXT",
+        "value" : "Probleem",
+        "mappings" : [ ]
+      },
+      "archetype_node_id" : "at0.4.1",
+      "archetype_details" : {
+        "_type" : "ARCHETYPED",
+        "archetype_id" : {
+          "_type" : "ARCHETYPE_ID",
+          "value" : "openEHR-EHR-EVALUATION.problem_diagnosis-ovl2.v1.0.0"
+        },
+        "rm_version" : "1.0.4"
+      },
+      "links" : [ ],
+      "language" : {
+        "_type" : "CODE_PHRASE",
+        "terminology_id" : {
+          "_type" : "TERMINOLOGY_ID",
+          "value" : "ISO_639-1"
+        },
+        "code_string" : "nl"
+      },
+      "encoding" : {
+        "_type" : "CODE_PHRASE",
+        "terminology_id" : {
+          "_type" : "TERMINOLOGY_ID",
+          "value" : "IANA_character-sets"
+        },
+        "code_string" : "UTF-8"
+      },
+      "subject" : {
+        "_type" : "PARTY_SELF"
+      },
+      "other_participations" : [ ],
+      "data" : {
+        "_type" : "ITEM_TREE",
+        "name" : {
+          "_type" : "DV_TEXT",
+          "value" : "",
+          "mappings" : [ ]
+        },
+        "archetype_node_id" : "at0001",
+        "links" : [ ],
+        "items" : [ {
+          "_type" : "CLUSTER",
+          "name" : {
+            "_type" : "DV_TEXT",
+            "value" : "Probleem SFMPC classificatie",
+            "mappings" : [ ]
+          },
+          "archetype_node_id" : "at0043.0.1",
+          "archetype_details" : {
+            "_type" : "ARCHETYPED",
+            "archetype_id" : {
+              "_type" : "ARCHETYPE_ID",
+              "value" : "openEHR-EHR-CLUSTER.problem_classification-SFMPC.v1.0.0"
+            },
+            "rm_version" : "1.0.4"
+          },
+          "links" : [ ],
+          "items" : [ {
+            "_type" : "ELEMENT",
+            "name" : {
+              "_type" : "DV_TEXT",
+              "value" : "SFMPC-domeinen",
+              "mappings" : [ ]
+            },
+            "archetype_node_id" : "at0001.1",
+            "links" : [ ],
+            "value" : {
+              "_type" : "DV_CODED_TEXT",
+              "value" : "F",
+              "mappings" : [ ],
+              "defining_code" : {
+                "_type" : "CODE_PHRASE",
+                "terminology_id" : {
+                  "_type" : "TERMINOLOGY_ID",
+                  "value" : "local"
+                },
+                "code_string" : "at0.4"
+              }
+            }
+          } ]
+        }, {
+          "_type" : "ELEMENT",
+          "name" : {
+            "_type" : "DV_TEXT",
+            "value" : "Probleem",
+            "mappings" : [ ]
+          },
+          "archetype_node_id" : "at0002.0.1",
+          "links" : [ ],
+          "value" : {
+            "_type" : "DV_TEXT",
+            "value" : "Dagelijkse activiteiten",
+            "mappings" : [ ]
+          }
+        } ]
+      }
+    } ]
+  }, {
+    "_type" : "SECTION",
+    "name" : {
+      "_type" : "DV_TEXT",
+      "value" : "Doel en acties",
+      "mappings" : [ ]
+    },
+    "archetype_node_id" : "at0.5",
+    "uid" : {
+      "_type" : "HIER_OBJECT_ID",
+      "value" : "b6d373e2-064a-4edb-b360-3604f463669c"
+    },
+    "links" : [ ],
+    "items" : [ {
+      "_type" : "SECTION",
+      "name" : {
+        "_type" : "DV_TEXT",
+        "value" : "Doel",
+        "mappings" : [ ]
+      },
+      "archetype_node_id" : "at0.8",
+      "links" : [ ],
+      "items" : [ {
+        "_type" : "EVALUATION",
+        "name" : {
+          "_type" : "DV_TEXT",
+          "value" : "Doel",
+          "mappings" : [ ]
+        },
+        "archetype_node_id" : "at0.9.1",
+        "archetype_details" : {
+          "_type" : "ARCHETYPED",
+          "archetype_id" : {
+            "_type" : "ARCHETYPE_ID",
+            "value" : "openEHR-EHR-EVALUATION.goal-ovl.v1.0.0"
+          },
+          "rm_version" : "1.0.4"
+        },
+        "links" : [ ],
+        "language" : {
+          "_type" : "CODE_PHRASE",
+          "terminology_id" : {
+            "_type" : "TERMINOLOGY_ID",
+            "value" : "ISO_639-1"
+          },
+          "code_string" : "nl"
+        },
+        "encoding" : {
+          "_type" : "CODE_PHRASE",
+          "terminology_id" : {
+            "_type" : "TERMINOLOGY_ID",
+            "value" : "IANA_character-sets"
+          },
+          "code_string" : "UTF-8"
+        },
+        "subject" : {
+          "_type" : "PARTY_SELF"
+        },
+        "other_participations" : [ ],
+        "data" : {
+          "_type" : "ITEM_TREE",
+          "name" : {
+            "_type" : "DV_TEXT",
+            "value" : "Tree",
+            "mappings" : [ ]
+          },
+          "archetype_node_id" : "at0001",
+          "links" : [ ],
+          "items" : [ {
+            "_type" : "ELEMENT",
+            "name" : {
+              "_type" : "DV_TEXT",
+              "value" : "Doelbeschrijving",
+              "mappings" : [ ]
+            },
+            "archetype_node_id" : "at0012.1",
+            "links" : [ ],
+            "value" : {
+              "_type" : "DV_TEXT",
+              "value" : "Herwinnen van zelfstandigheid in dagelijkse activiteiten (ADL)",
+              "mappings" : [ ]
+            }
+          } ]
+        }
+      } ]
+    }, {
+      "_type" : "SECTION",
+      "name" : {
+        "_type" : "DV_TEXT",
+        "value" : "Acties",
+        "mappings" : [ ]
+      },
+      "archetype_node_id" : "at0.10",
+      "links" : [ ],
+      "items" : [ {
+        "_type" : "INSTRUCTION",
+        "name" : {
+          "_type" : "DV_TEXT",
+          "value" : "Actie",
+          "mappings" : [ ]
+        },
+        "archetype_node_id" : "at0.11.1",
+        "uid" : {
+          "_type" : "HIER_OBJECT_ID",
+          "value" : "5e107a7d-fa17-4913-9a85-3826f9321af1"
+        },
+        "archetype_details" : {
+          "_type" : "ARCHETYPED",
+          "archetype_id" : {
+            "_type" : "ARCHETYPE_ID",
+            "value" : "openEHR-EHR-INSTRUCTION.plan_action-ovl.v1.0.0"
+          },
+          "rm_version" : "1.0.4"
+        },
+        "links" : [ ],
+        "language" : {
+          "_type" : "CODE_PHRASE",
+          "terminology_id" : {
+            "_type" : "TERMINOLOGY_ID",
+            "value" : "ISO_639-1"
+          },
+          "code_string" : "nl"
+        },
+        "encoding" : {
+          "_type" : "CODE_PHRASE",
+          "terminology_id" : {
+            "_type" : "TERMINOLOGY_ID",
+            "value" : "IANA_character-sets"
+          },
+          "code_string" : "UTF-8"
+        },
+        "subject" : {
+          "_type" : "PARTY_SELF"
+        },
+        "other_participations" : [ ],
+        "narrative" : {
+          "_type" : "DV_TEXT",
+          "value" : "Training in zelfzorg, hulpmiddelenadvies, oefenen van huishoudelijke taken",
+          "mappings" : [ ]
+        },
+        "activities" : [ {
+          "_type" : "ACTIVITY",
+          "name" : {
+            "_type" : "DV_TEXT",
+            "value" : "Activiteit",
+            "mappings" : [ ]
+          },
+          "archetype_node_id" : "at0001",
+          "links" : [ ],
+          "description" : {
+            "_type" : "ITEM_TREE",
+            "name" : {
+              "_type" : "DV_TEXT",
+              "value" : "",
+              "mappings" : [ ]
+            },
+            "archetype_node_id" : "at0002",
+            "links" : [ ],
+            "items" : [ {
+              "_type" : "ELEMENT",
+              "name" : {
+                "_type" : "DV_TEXT",
+                "value" : "Actiebeschrijving",
+                "mappings" : [ ]
+              },
+              "archetype_node_id" : "at0006",
+              "links" : [ ],
+              "value" : {
+                "_type" : "DV_TEXT",
+                "value" : "Training in zelfzorg, hulpmiddelenadvies, oefenen van huishoudelijke taken",
+                "mappings" : [ ]
+              }
+            }, {
+              "_type" : "CLUSTER",
+              "name" : {
+                "_type" : "DV_TEXT",
+                "value" : "Relevante deskundigheden",
+                "mappings" : [ ]
+              },
+              "archetype_node_id" : "at0004.1",
+              "archetype_details" : {
+                "_type" : "ARCHETYPED",
+                "archetype_id" : {
+                  "_type" : "ARCHETYPE_ID",
+                  "value" : "openEHR-EHR-CLUSTER.expertises-ovl.v1.0.0"
+                },
+                "rm_version" : "1.0.4"
+              },
+              "links" : [ ],
+              "items" : [ {
+                "_type" : "CLUSTER",
+                "name" : {
+                  "_type" : "DV_TEXT",
+                  "value" : "Deskundigheid",
+                  "mappings" : [ ]
+                },
+                "archetype_node_id" : "at0001",
+                "archetype_details" : {
+                  "_type" : "ARCHETYPED",
+                  "archetype_id" : {
+                    "_type" : "ARCHETYPE_ID",
+                    "value" : "openEHR-EHR-CLUSTER.expertise.v1.0.0"
+                  },
+                  "rm_version" : "1.0.4"
+                },
+                "links" : [ ],
+                "items" : [ {
+                  "_type" : "ELEMENT",
+                  "name" : {
+                    "_type" : "DV_TEXT",
+                    "value" : "Type deskundigheid",
+                    "mappings" : [ ]
+                  },
+                  "archetype_node_id" : "at0006",
+                  "links" : [ ],
+                  "value" : {
+                    "_type" : "DV_CODED_TEXT",
+                    "value" : "Profiel",
+                    "mappings" : [ ],
+                    "defining_code" : {
+                      "_type" : "CODE_PHRASE",
+                      "terminology_id" : {
+                        "_type" : "TERMINOLOGY_ID",
+                        "value" : "local"
+                      },
+                      "code_string" : "at0004"
+                    }
+                  }
+                }, {
+                  "_type" : "ELEMENT",
+                  "name" : {
+                    "_type" : "DV_TEXT",
+                    "value" : "Numerieke id",
+                    "mappings" : [ ]
+                  },
+                  "archetype_node_id" : "at0008",
+                  "links" : [ ],
+                  "value" : {
+                    "_type" : "DV_IDENTIFIER",
+                    "id" : "13"
+                  }
+                } ]
+              } ]
+            } ]
+          },
+          "action_archetype_id" : "/.*/"
+        } ]
+      }, {
+        "_type" : "INSTRUCTION",
+        "name" : {
+          "_type" : "DV_TEXT",
+          "value" : "Actie",
+          "mappings" : [ ]
+        },
+        "archetype_node_id" : "at0.11.1",
+        "uid" : {
+          "_type" : "HIER_OBJECT_ID",
+          "value" : "c5ce925d-2745-4f29-92b0-b67460af681c"
+        },
+        "archetype_details" : {
+          "_type" : "ARCHETYPED",
+          "archetype_id" : {
+            "_type" : "ARCHETYPE_ID",
+            "value" : "openEHR-EHR-INSTRUCTION.plan_action-ovl.v1.0.0"
+          },
+          "rm_version" : "1.0.4"
+        },
+        "links" : [ ],
+        "language" : {
+          "_type" : "CODE_PHRASE",
+          "terminology_id" : {
+            "_type" : "TERMINOLOGY_ID",
+            "value" : "ISO_639-1"
+          },
+          "code_string" : "nl"
+        },
+        "encoding" : {
+          "_type" : "CODE_PHRASE",
+          "terminology_id" : {
+            "_type" : "TERMINOLOGY_ID",
+            "value" : "IANA_character-sets"
+          },
+          "code_string" : "UTF-8"
+        },
+        "subject" : {
+          "_type" : "PARTY_SELF"
+        },
+        "other_participations" : [ ],
+        "narrative" : {
+          "_type" : "DV_TEXT",
+          "value" : "Stimuleren van zelfredzaamheid bij ADL\nclient wast zichzelf\nheeft hulp nodig bij douchen\nkan zichzelf aankleden",
+          "mappings" : [ ]
+        },
+        "activities" : [ {
+          "_type" : "ACTIVITY",
+          "name" : {
+            "_type" : "DV_TEXT",
+            "value" : "Activiteit",
+            "mappings" : [ ]
+          },
+          "archetype_node_id" : "at0001",
+          "links" : [ ],
+          "description" : {
+            "_type" : "ITEM_TREE",
+            "name" : {
+              "_type" : "DV_TEXT",
+              "value" : "",
+              "mappings" : [ ]
+            },
+            "archetype_node_id" : "at0002",
+            "links" : [ ],
+            "items" : [ {
+              "_type" : "ELEMENT",
+              "name" : {
+                "_type" : "DV_TEXT",
+                "value" : "Actiebeschrijving",
+                "mappings" : [ ]
+              },
+              "archetype_node_id" : "at0006",
+              "links" : [ ],
+              "value" : {
+                "_type" : "DV_TEXT",
+                "value" : "Stimuleren van zelfredzaamheid bij ADL\nclient wast zichzelf\nheeft hulp nodig bij douchen\nkan zichzelf aankleden",
+                "mappings" : [ ]
+              }
+            }, {
+              "_type" : "CLUSTER",
+              "name" : {
+                "_type" : "DV_TEXT",
+                "value" : "Relevante deskundigheden",
+                "mappings" : [ ]
+              },
+              "archetype_node_id" : "at0004.1",
+              "archetype_details" : {
+                "_type" : "ARCHETYPED",
+                "archetype_id" : {
+                  "_type" : "ARCHETYPE_ID",
+                  "value" : "openEHR-EHR-CLUSTER.expertises-ovl.v1.0.0"
+                },
+                "rm_version" : "1.0.4"
+              },
+              "links" : [ ],
+              "items" : [ {
+                "_type" : "CLUSTER",
+                "name" : {
+                  "_type" : "DV_TEXT",
+                  "value" : "Deskundigheid",
+                  "mappings" : [ ]
+                },
+                "archetype_node_id" : "at0001",
+                "archetype_details" : {
+                  "_type" : "ARCHETYPED",
+                  "archetype_id" : {
+                    "_type" : "ARCHETYPE_ID",
+                    "value" : "openEHR-EHR-CLUSTER.expertise.v1.0.0"
+                  },
+                  "rm_version" : "1.0.4"
+                },
+                "links" : [ ],
+                "items" : [ {
+                  "_type" : "ELEMENT",
+                  "name" : {
+                    "_type" : "DV_TEXT",
+                    "value" : "Type deskundigheid",
+                    "mappings" : [ ]
+                  },
+                  "archetype_node_id" : "at0006",
+                  "links" : [ ],
+                  "value" : {
+                    "_type" : "DV_CODED_TEXT",
+                    "value" : "Groep",
+                    "mappings" : [ ],
+                    "defining_code" : {
+                      "_type" : "CODE_PHRASE",
+                      "terminology_id" : {
+                        "_type" : "TERMINOLOGY_ID",
+                        "value" : "local"
+                      },
+                      "code_string" : "at0005"
+                    }
+                  }
+                }, {
+                  "_type" : "ELEMENT",
+                  "name" : {
+                    "_type" : "DV_TEXT",
+                    "value" : "Numerieke id",
+                    "mappings" : [ ]
+                  },
+                  "archetype_node_id" : "at0008",
+                  "links" : [ ],
+                  "value" : {
+                    "_type" : "DV_IDENTIFIER",
+                    "id" : "21"
+                  }
+                } ]
+              } ]
+            } ]
+          },
+          "action_archetype_id" : "/.*/"
+        } ]
+      } ]
+    } ]
+  } ]
+}
