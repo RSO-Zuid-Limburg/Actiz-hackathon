@@ -10,7 +10,7 @@
     "_type" : "ARCHETYPED",
     "archetype_id" : {
       "_type" : "ARCHETYPE_ID",
-      "value" : "openEHR-EHR-COMPOSITION.plan-SFMPC.v1.0.0"
+      "value" : "openEHR-EHR-COMPOSITION.plan-SFMPC.v1"
     },
     "rm_version" : "1.0.4"
   },

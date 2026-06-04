@@ -10,7 +10,7 @@
     "_type" : "ARCHETYPED",
     "archetype_id" : {
       "_type" : "ARCHETYPE_ID",
-      "value" : "openEHR-EHR-COMPOSITION.plan_element-SFMPC.v1.0.0"
+      "value" : "openEHR-EHR-COMPOSITION.plan_element-SFMPC.v1"
     },
     "rm_version" : "1.0.4"
   },
@@ -87,7 +87,7 @@
         "_type" : "ARCHETYPED",
         "archetype_id" : {
           "_type" : "ARCHETYPE_ID",
-          "value" : "openEHR-EHR-EVALUATION.problem_diagnosis-ovl2.v1.0.0"
+          "value" : "openEHR-EHR-EVALUATION.problem_diagnosis-ovl2.v1"
         },
         "rm_version" : "1.0.4"
       },
@@ -133,7 +133,7 @@
             "_type" : "ARCHETYPED",
             "archetype_id" : {
               "_type" : "ARCHETYPE_ID",
-              "value" : "openEHR-EHR-CLUSTER.problem_classification-SFMPC.v1.0.0"
+              "value" : "openEHR-EHR-CLUSTER.problem_classification-SFMPC.v1"
             },
             "rm_version" : "1.0.4"
           },
@@ -228,7 +228,7 @@
           "_type" : "ARCHETYPED",
           "archetype_id" : {
             "_type" : "ARCHETYPE_ID",
-            "value" : "openEHR-EHR-EVALUATION.goal-ovl.v1.0.0"
+            "value" : "openEHR-EHR-EVALUATION.goal-ovl.v1"
           },
           "rm_version" : "1.0.4"
         },
@@ -312,7 +312,7 @@
           "_type" : "ARCHETYPED",
           "archetype_id" : {
             "_type" : "ARCHETYPE_ID",
-            "value" : "openEHR-EHR-INSTRUCTION.plan_action-ovl.v1.0.0"
+            "value" : "openEHR-EHR-INSTRUCTION.plan_action-ovl.v1"
           },
           "rm_version" : "1.0.4"
         },
@@ -386,7 +386,7 @@
                 "_type" : "ARCHETYPED",
                 "archetype_id" : {
                   "_type" : "ARCHETYPE_ID",
-                  "value" : "openEHR-EHR-CLUSTER.expertises-ovl.v1.0.0"
+                  "value" : "openEHR-EHR-CLUSTER.expertises-ovl.v1"
                 },
                 "rm_version" : "1.0.4"
               },
@@ -403,7 +403,7 @@
                   "_type" : "ARCHETYPED",
                   "archetype_id" : {
                     "_type" : "ARCHETYPE_ID",
-                    "value" : "openEHR-EHR-CLUSTER.expertise.v1.0.0"
+                    "value" : "openEHR-EHR-CLUSTER.expertise.v1"
                   },
                   "rm_version" : "1.0.4"
                 },
@@ -465,7 +465,7 @@
           "_type" : "ARCHETYPED",
           "archetype_id" : {
             "_type" : "ARCHETYPE_ID",
-            "value" : "openEHR-EHR-INSTRUCTION.plan_action-ovl.v1.0.0"
+            "value" : "openEHR-EHR-INSTRUCTION.plan_action-ovl.v1"
           },
           "rm_version" : "1.0.4"
         },
@@ -539,7 +539,7 @@
                 "_type" : "ARCHETYPED",
                 "archetype_id" : {
                   "_type" : "ARCHETYPE_ID",
-                  "value" : "openEHR-EHR-CLUSTER.expertises-ovl.v1.0.0"
+                  "value" : "openEHR-EHR-CLUSTER.expertises-ovl.v1"
                 },
                 "rm_version" : "1.0.4"
               },
@@ -556,7 +556,7 @@
                   "_type" : "ARCHETYPED",
                   "archetype_id" : {
                     "_type" : "ARCHETYPE_ID",
-                    "value" : "openEHR-EHR-CLUSTER.expertise.v1.0.0"
+                    "value" : "openEHR-EHR-CLUSTER.expertise.v1"
                   },
                   "rm_version" : "1.0.4"
                 },
