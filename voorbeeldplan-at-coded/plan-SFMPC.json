@@ -65,7 +65,7 @@
       "value" : "SFMPC-plan element referenties",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0.15.1",
+    "archetype_node_id" : "at0000",
     "links" : [ ],
     "language" : {
       "_type" : "CODE_PHRASE",
@@ -94,7 +94,7 @@
         "value" : "",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0.16",
+      "archetype_node_id" : "at0000",
       "links" : [ ],
       "items" : [ {
         "_type" : "ELEMENT",
@@ -103,7 +103,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -116,7 +116,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -129,7 +129,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -142,7 +142,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -155,7 +155,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -168,7 +168,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -181,7 +181,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -194,7 +194,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -207,7 +207,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",
@@ -220,7 +220,7 @@
           "value" : "Plan element referentie",
           "mappings" : [ ]
         },
-        "archetype_node_id" : "at0.17",
+        "archetype_node_id" : "at0000",
         "links" : [ ],
         "value" : {
           "_type" : "DV_EHR_URI",

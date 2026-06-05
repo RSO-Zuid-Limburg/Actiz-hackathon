@@ -65,7 +65,7 @@
       "value" : "Probleem",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0.3.1",
+    "archetype_node_id" : "at0000",
     "archetype_details" : {
       "_type" : "ARCHETYPED",
       "archetype_id" : {
@@ -157,7 +157,7 @@
                   "_type" : "TERMINOLOGY_ID",
                   "value" : "local"
                 },
-                "code_string" : "at0.4"
+                "code_string" : "at0000"
               }
             }
           } ]
@@ -185,7 +185,7 @@
       "value" : "Doel en acties",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0.5",
+    "archetype_node_id" : "at0000",
     "uid" : {
       "_type" : "HIER_OBJECT_ID",
       "value" : "56a9739a-766d-4520-9610-7f7ad656a227"
@@ -206,7 +206,7 @@
         "value" : "Doel",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0.8",
+      "archetype_node_id" : "at0000",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -286,7 +286,7 @@
         "value" : "Acties",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0.10",
+      "archetype_node_id" : "at0000",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -458,7 +458,7 @@
       "value" : "Doel en acties",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0.5",
+    "archetype_node_id" : "at0000",
     "uid" : {
       "_type" : "HIER_OBJECT_ID",
       "value" : "1b62dc36-b220-434d-83b0-d74b1f976818"
@@ -479,7 +479,7 @@
         "value" : "Doel",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0.8",
+      "archetype_node_id" : "at0000",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -559,7 +559,7 @@
         "value" : "Acties",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0.10",
+      "archetype_node_id" : "at0000",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {

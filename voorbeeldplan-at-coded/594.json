@@ -65,7 +65,7 @@
       "value" : "Aandachtsgebied",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0.3.1",
+    "archetype_node_id" : "at0000",
     "archetype_details" : {
       "_type" : "ARCHETYPED",
       "archetype_id" : {
@@ -157,7 +157,7 @@
                   "_type" : "TERMINOLOGY_ID",
                   "value" : "local"
                 },
-                "code_string" : "at0.3"
+                "code_string" : "at0000"
               }
             }
           } ]
@@ -185,7 +185,7 @@
       "value" : "Doel en acties",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0.5",
+    "archetype_node_id" : "at0000",
     "uid" : {
       "_type" : "HIER_OBJECT_ID",
       "value" : "74b0a5ad-e706-4224-9beb-6b4183777d49"
@@ -206,7 +206,7 @@
         "value" : "Doel",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0.8",
+      "archetype_node_id" : "at0000",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -286,7 +286,7 @@
         "value" : "Acties",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0.10",
+      "archetype_node_id" : "at0000",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
