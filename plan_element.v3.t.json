@@ -1,6 +1,6 @@
 {
   "@type" : "TEMPLATE",
-  "uid" : "721cc67f-156e-4b1f-8e99-6d1d0a25042a",
+  "uid" : "d4f182a6-65d8-4bfb-8f36-ae9577046f85",
   "description" : {
     "@type" : "RESOURCE_DESCRIPTION",
     "originalAuthor" : {
@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.0.0-alpha.2",
+      "sem_ver" : "3.1.0-alpha.2",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "f9a84b1a9309f634909e6450e39018b9",
+      "MD5-CAM-1.0.1" : "b3096abb9a3ba13173b37c2f460b935f",
       "PARENT:MD5-CAM-1.0.1" : "7A6FC5F934FA0416F9ED5EE99EE23557"
     },
     "details" : {
@@ -95,7 +95,7 @@
       }, {
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "SECTION",
-        "occurrences" : "1..*",
+        "occurrences" : "0..1",
         "nodeId" : "at0.4",
         "attributes" : [ ],
         "attributeTuples" : [ ],
@@ -113,7 +113,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Plan element",
+          "text" : "plan_element.v3",
           "description" : "A managed list of any combination of archetypes that will support the accurate recording of a plan. This plan will describe the care or treatment of an individual."
         }
       },
@@ -135,7 +135,7 @@
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
-  "templateId" : "Plan element",
+  "templateId" : "plan_element.v3",
   "otherMetaData" : { },
   "templateOverlays" : [ {
     "@type" : "TEMPLATE_OVERLAY",
@@ -946,7 +946,7 @@
             "children" : [ {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "1..1",
+              "occurrences" : "0..1",
               "nodeId" : "at0071.1",
               "attributes" : [ ],
               "attributeTuples" : [ ],
@@ -1585,7 +1585,7 @@
         "children" : [ {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "SECTION",
-          "occurrences" : "1..1",
+          "occurrences" : "0..1",
           "nodeId" : "at0.2",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -1594,7 +1594,7 @@
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "SECTION",
-          "occurrences" : "1..1",
+          "occurrences" : "0..1",
           "nodeId" : "at0.4",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -2218,7 +2218,7 @@
         "children" : [ {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "EVALUATION",
-          "occurrences" : "1..1",
+          "occurrences" : "0..1",
           "nodeId" : "at0.2",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -2994,7 +2994,7 @@
         "children" : [ {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "INSTRUCTION",
-          "occurrences" : "1..*",
+          "occurrences" : "0..1",
           "nodeId" : "at0.2",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -3419,7 +3419,7 @@
                 }, {
                   "@type" : "C_ARCHETYPE_ROOT",
                   "rmTypeName" : "CLUSTER",
-                  "occurrences" : "1..1",
+                  "occurrences" : "0..1",
                   "nodeId" : "at0004.1",
                   "attributes" : [ ],
                   "attributeTuples" : [ ],
