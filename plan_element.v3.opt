@@ -17,9 +17,9 @@
         <other_details id="original_namespace"></other_details>
         <other_details id="original_publisher"></other_details>
         <other_details id="custodian_namespace"></other_details>
-        <other_details id="sem_ver">2.0.0-alpha.2</other_details>
+        <other_details id="sem_ver">3.1.0-alpha.2</other_details>
         <other_details id="build_uid"></other_details>
-        <other_details id="MD5-CAM-1.0.1">9dadf1220996357d6b64799fa7e393e9</other_details>
+        <other_details id="MD5-CAM-1.0.1">b3096abb9a3ba13173b37c2f460b935f</other_details>
         <other_details id="PARENT:MD5-CAM-1.0.1">7A6FC5F934FA0416F9ED5EE99EE23557</other_details>
         <details>
             <language>
@@ -32,12 +32,12 @@
         </details>
     </description>
     <uid>
-        <value>721cc67f-156e-4b1f-8e99-6d1d0a25042a</value>
+        <value>d4f182a6-65d8-4bfb-8f36-ae9577046f85</value>
     </uid>
     <template_id>
         <value>plan_element.v3</value>
     </template_id>
-    <concept>Plan element v3</concept>
+    <concept>plan_element.v3</concept>
     <definition>
         <rm_type_name>COMPOSITION</rm_type_name>
         <occurrences>
@@ -925,7 +925,7 @@
                                             <upper_included>true</upper_included>
                                             <lower_unbounded>false</lower_unbounded>
                                             <upper_unbounded>false</upper_unbounded>
-                                            <lower>1</lower>
+                                            <lower>0</lower>
                                             <upper>1</upper>
                                         </occurrences>
                                         <node_id>at0000</node_id>
@@ -1378,10 +1378,11 @@ This element is meant to allow for multiple types of impact, including but not l
                 <rm_type_name>SECTION</rm_type_name>
                 <occurrences>
                     <lower_included>true</lower_included>
-                    <upper_included>false</upper_included>
+                    <upper_included>true</upper_included>
                     <lower_unbounded>false</lower_unbounded>
-                    <upper_unbounded>true</upper_unbounded>
-                    <lower>1</lower>
+                    <upper_unbounded>false</upper_unbounded>
+                    <lower>0</lower>
+                    <upper>1</upper>
                 </occurrences>
                 <node_id>at0000</node_id>
                 <attributes xsi:type="C_MULTIPLE_ATTRIBUTE">
@@ -1402,7 +1403,7 @@ This element is meant to allow for multiple types of impact, including but not l
                             <upper_included>true</upper_included>
                             <lower_unbounded>false</lower_unbounded>
                             <upper_unbounded>false</upper_unbounded>
-                            <lower>1</lower>
+                            <lower>0</lower>
                             <upper>1</upper>
                         </occurrences>
                         <node_id>at0000</node_id>
@@ -1424,7 +1425,7 @@ This element is meant to allow for multiple types of impact, including but not l
                                     <upper_included>true</upper_included>
                                     <lower_unbounded>false</lower_unbounded>
                                     <upper_unbounded>false</upper_unbounded>
-                                    <lower>1</lower>
+                                    <lower>0</lower>
                                     <upper>1</upper>
                                 </occurrences>
                                 <node_id>at0000</node_id>
@@ -2855,7 +2856,7 @@ This element is meant to allow for multiple types of impact, including but not l
                             <upper_included>true</upper_included>
                             <lower_unbounded>false</lower_unbounded>
                             <upper_unbounded>false</upper_unbounded>
-                            <lower>1</lower>
+                            <lower>0</lower>
                             <upper>1</upper>
                         </occurrences>
                         <node_id>at0000</node_id>
@@ -2874,10 +2875,11 @@ This element is meant to allow for multiple types of impact, including but not l
                                 <rm_type_name>INSTRUCTION</rm_type_name>
                                 <occurrences>
                                     <lower_included>true</lower_included>
-                                    <upper_included>false</upper_included>
+                                    <upper_included>true</upper_included>
                                     <lower_unbounded>false</lower_unbounded>
-                                    <upper_unbounded>true</upper_unbounded>
-                                    <lower>1</lower>
+                                    <upper_unbounded>false</upper_unbounded>
+                                    <lower>0</lower>
+                                    <upper>1</upper>
                                 </occurrences>
                                 <node_id>at0000</node_id>
                                 <attributes xsi:type="C_MULTIPLE_ATTRIBUTE">
@@ -3029,7 +3031,7 @@ This element is meant to allow for multiple types of impact, including but not l
                                                             <upper_included>true</upper_included>
                                                             <lower_unbounded>false</lower_unbounded>
                                                             <upper_unbounded>false</upper_unbounded>
-                                                            <lower>1</lower>
+                                                            <lower>0</lower>
                                                             <upper>1</upper>
                                                         </occurrences>
                                                         <node_id>at0000</node_id>
@@ -3849,10 +3851,10 @@ This element is meant to allow for multiple types of impact, including but not l
             <value>openEHR-EHR-COMPOSITION.care_plan_nedap.v1</value>
         </archetype_id>
         <template_id>
-            <value>Plan element</value>
+            <value>plan_element.v3</value>
         </template_id>
         <term_definitions code="at0000">
-            <items id="text">Plan element</items>
+            <items id="text">plan_element.v3</items>
             <items id="description">A managed list of any combination of archetypes that will support the accurate recording of a plan. This plan will describe the care or treatment of an individual.</items>
         </term_definitions>
         <term_definitions code="at0001">
