@@ -145,7 +145,7 @@
               "value" : "SFMPC-domeinen",
               "mappings" : [ ]
             },
-            "archetype_node_id" : "at0001.1",
+            "archetype_node_id" : "at0001",
             "links" : [ ],
             "value" : {
               "_type" : "DV_CODED_TEXT",
@@ -168,7 +168,7 @@
             "value" : "Aandachtsgebied",
             "mappings" : [ ]
           },
-          "archetype_node_id" : "at0002.0.1",
+          "archetype_node_id" : "at0002",
           "links" : [ ],
           "value" : {
             "_type" : "DV_TEXT",
@@ -269,7 +269,7 @@
               "value" : "Doelbeschrijving",
               "mappings" : [ ]
             },
-            "archetype_node_id" : "at0012.1",
+            "archetype_node_id" : "at0012",
             "links" : [ ],
             "value" : {
               "_type" : "DV_TEXT",
@@ -542,7 +542,7 @@
               "value" : "Doelbeschrijving",
               "mappings" : [ ]
             },
-            "archetype_node_id" : "at0012.1",
+            "archetype_node_id" : "at0012",
             "links" : [ ],
             "value" : {
               "_type" : "DV_TEXT",
