@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.1.0-alpha.2",
+      "sem_ver" : "4.0.0-alpha.2",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "b3096abb9a3ba13173b37c2f460b935f",
+      "MD5-CAM-1.0.1" : "e51e64ed1447dcb76843d7557ec816c7",
       "PARENT:MD5-CAM-1.0.1" : "7A6FC5F934FA0416F9ED5EE99EE23557"
     },
     "details" : {
@@ -423,7 +423,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Probleem",
+            "text" : "Aandachtsgebied",
             "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
           }
         },
@@ -925,6 +925,12 @@
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0002.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
               "nodeId" : "at0080.1",
               "attributes" : [ ],
@@ -970,9 +976,16 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Probleem",
+            "text" : "Aandachtsgebied",
             "description" : "Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual.",
             "comment" : "Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Aandachtsgebied",
+            "description" : "Identification of the problem or diagnosis, by name.",
+            "comment" : "Coding of the name of the problem or diagnosis with a terminology is preferred, where possible."
           }
         },
         "ar-sy" : { },
