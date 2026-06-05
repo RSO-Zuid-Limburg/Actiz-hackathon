@@ -266,6 +266,20 @@
             "_type" : "ELEMENT",
             "name" : {
               "_type" : "DV_TEXT",
+              "value" : "Doel",
+              "mappings" : [ ]
+            },
+            "archetype_node_id" : "at0002",
+            "links" : [ ],
+            "value" : {
+              "_type" : "DV_TEXT",
+              "value" : "Betrokkenheid van patient, matelzorgers en behandelteam bij het reva-proces",
+              "mappings" : [ ]
+            }
+          }, {
+            "_type" : "ELEMENT",
+            "name" : {
+              "_type" : "DV_TEXT",
               "value" : "Doelbeschrijving",
               "mappings" : [ ]
             },
@@ -1113,6 +1127,20 @@
           "archetype_node_id" : "at0001",
           "links" : [ ],
           "items" : [ {
+            "_type" : "ELEMENT",
+            "name" : {
+              "_type" : "DV_TEXT",
+              "value" : "Doel",
+              "mappings" : [ ]
+            },
+            "archetype_node_id" : "at0002",
+            "links" : [ ],
+            "value" : {
+              "_type" : "DV_TEXT",
+              "value" : "Duidelijke overdracht van informatie bij ontslag",
+              "mappings" : [ ]
+            }
+          }, {
             "_type" : "ELEMENT",
             "name" : {
               "_type" : "DV_TEXT",

@@ -266,6 +266,20 @@
             "_type" : "ELEMENT",
             "name" : {
               "_type" : "DV_TEXT",
+              "value" : "Doel",
+              "mappings" : [ ]
+            },
+            "archetype_node_id" : "at0002",
+            "links" : [ ],
+            "value" : {
+              "_type" : "DV_TEXT",
+              "value" : "gehoorbescherming",
+              "mappings" : [ ]
+            }
+          }, {
+            "_type" : "ELEMENT",
+            "name" : {
+              "_type" : "DV_TEXT",
               "value" : "Doelbeschrijving",
               "mappings" : [ ]
             },
