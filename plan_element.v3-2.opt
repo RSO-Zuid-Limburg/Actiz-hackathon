@@ -19,7 +19,7 @@
         <other_details id="custodian_namespace"></other_details>
         <other_details id="sem_ver">4.0.0-alpha.2</other_details>
         <other_details id="build_uid"></other_details>
-        <other_details id="MD5-CAM-1.0.1">b3096abb9a3ba13173b37c2f460b935f</other_details>
+        <other_details id="MD5-CAM-1.0.1">e51e64ed1447dcb76843d7557ec816c7</other_details>
         <other_details id="PARENT:MD5-CAM-1.0.1">7A6FC5F934FA0416F9ED5EE99EE23557</other_details>
         <details>
             <language>
@@ -3419,11 +3419,11 @@ This element is meant to allow for multiple types of impact, including but not l
                                                                     <items id="description">Expertise</items>
                                                                 </term_definitions>
                                                                 <term_definitions code="at0004">
-                                                                    <items id="text">Profile</items>
+                                                                    <items id="text">Profiel</items>
                                                                     <items id="description">Expertise profile.</items>
                                                                 </term_definitions>
                                                                 <term_definitions code="at0005">
-                                                                    <items id="text">Group</items>
+                                                                    <items id="text">Groep</items>
                                                                     <items id="description">Expertise group.</items>
                                                                 </term_definitions>
                                                                 <term_definitions code="at0006">
