@@ -17,9 +17,9 @@
         <other_details id="original_namespace"></other_details>
         <other_details id="original_publisher"></other_details>
         <other_details id="custodian_namespace"></other_details>
-        <other_details id="sem_ver">4.1.0-alpha.2</other_details>
+        <other_details id="sem_ver">4.2.0-alpha.2</other_details>
         <other_details id="build_uid"></other_details>
-        <other_details id="MD5-CAM-1.0.1">dedfd73ae19edfd2d1e44ad3aef2f78d</other_details>
+        <other_details id="MD5-CAM-1.0.1">3c118cf500c7c00cc168b41c55a23c58</other_details>
         <other_details id="PARENT:MD5-CAM-1.0.1">7A6FC5F934FA0416F9ED5EE99EE23557</other_details>
         <details>
             <language>
@@ -32,12 +32,12 @@
         </details>
     </description>
     <uid>
-        <value>6413c631-24ec-42a9-9f71-f928627991d3</value>
+        <value>97d2137d-9396-4399-9eb1-2b5391c0cb87</value>
     </uid>
     <template_id>
-        <value>plan_element.v4</value>
+        <value>plan_element.v5</value>
     </template_id>
-    <concept>plan_element.v4</concept>
+    <concept>plan_element.v5</concept>
     <definition>
         <rm_type_name>COMPOSITION</rm_type_name>
         <occurrences>
@@ -1429,11 +1429,10 @@ This element is meant to allow for multiple types of impact, including but not l
                 <rm_type_name>SECTION</rm_type_name>
                 <occurrences>
                     <lower_included>true</lower_included>
-                    <upper_included>true</upper_included>
+                    <upper_included>false</upper_included>
                     <lower_unbounded>false</lower_unbounded>
-                    <upper_unbounded>false</upper_unbounded>
+                    <upper_unbounded>true</upper_unbounded>
                     <lower>0</lower>
-                    <upper>1</upper>
                 </occurrences>
                 <node_id>at0000</node_id>
                 <attributes xsi:type="C_MULTIPLE_ATTRIBUTE">
@@ -3418,12 +3417,12 @@ This element is meant to allow for multiple types of impact, including but not l
                                                                     <items id="description">Expertise</items>
                                                                 </term_definitions>
                                                                 <term_definitions code="at0004">
-                                                                    <items id="text">Profiel</items>
+                                                                    <items id="text">Profile</items>
                                                                     <items id="description">Expertise profile.</items>
                                                                 </term_definitions>
                                                                 <term_definitions code="at0005">
-                                                                    <items id="text">Groep</items>
-                                                                    <items id="description">Expertise groep.</items>
+                                                                    <items id="text">Group</items>
+                                                                    <items id="description">Expertise group.</items>
                                                                 </term_definitions>
                                                                 <term_definitions code="at0006">
                                                                     <items id="text">Type deskundigheid</items>
@@ -3901,10 +3900,10 @@ This element is meant to allow for multiple types of impact, including but not l
             <value>openEHR-EHR-COMPOSITION.care_plan_nedap.v1</value>
         </archetype_id>
         <template_id>
-            <value>plan_element.v4</value>
+            <value>plan_element.v5</value>
         </template_id>
         <term_definitions code="at0000">
-            <items id="text">plan_element.v3</items>
+            <items id="text">plan element</items>
             <items id="description">A managed list of any combination of archetypes that will support the accurate recording of a plan. This plan will describe the care or treatment of an individual.</items>
         </term_definitions>
         <term_definitions code="at0001">
