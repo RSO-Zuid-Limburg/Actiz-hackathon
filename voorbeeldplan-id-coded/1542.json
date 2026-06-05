@@ -62,7 +62,7 @@
     "_type" : "SECTION",
     "name" : {
       "_type" : "DV_TEXT",
-      "value" : "Probleem",
+      "value" : "Aandachtsgebied",
       "mappings" : [ ]
     },
     "archetype_node_id" : "id0.3.1",
@@ -71,7 +71,7 @@
       "_type" : "EVALUATION",
       "name" : {
         "_type" : "DV_TEXT",
-        "value" : "Probleem",
+        "value" : "Aandachtsgebied",
         "mappings" : [ ]
       },
       "archetype_node_id" : "id0.4.1",
@@ -117,7 +117,7 @@
           "_type" : "CLUSTER",
           "name" : {
             "_type" : "DV_TEXT",
-            "value" : "Probleem SFMPC classificatie",
+            "value" : "Aandachtsgebied SFMPC classificatie",
             "mappings" : [ ]
           },
           "archetype_node_id" : "id44.0.1",
@@ -157,7 +157,7 @@
           "_type" : "ELEMENT",
           "name" : {
             "_type" : "DV_TEXT",
-            "value" : "Probleem",
+            "value" : "Aandachtsgebied",
             "mappings" : [ ]
           },
           "archetype_node_id" : "id3.0.1",

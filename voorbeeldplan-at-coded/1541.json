@@ -62,7 +62,7 @@
     "_type" : "SECTION",
     "name" : {
       "_type" : "DV_TEXT",
-      "value" : "Probleem",
+      "value" : "Aandachtsgebied",
       "mappings" : [ ]
     },
     "archetype_node_id" : "at0000",
@@ -79,7 +79,7 @@
       "_type" : "EVALUATION",
       "name" : {
         "_type" : "DV_TEXT",
-        "value" : "Probleem",
+        "value" : "Aandachtsgebied",
         "mappings" : [ ]
       },
       "archetype_node_id" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
@@ -125,7 +125,7 @@
           "_type" : "CLUSTER",
           "name" : {
             "_type" : "DV_TEXT",
-            "value" : "Probleem SFMPC classificatie",
+            "value" : "Aandachtsgebied SFMPC classificatie",
             "mappings" : [ ]
           },
           "archetype_node_id" : "openEHR-EHR-CLUSTER.problem_classification-SFMPC.v1",
@@ -165,7 +165,7 @@
           "_type" : "ELEMENT",
           "name" : {
             "_type" : "DV_TEXT",
-            "value" : "Probleem",
+            "value" : "Aandachtsgebied",
             "mappings" : [ ]
           },
           "archetype_node_id" : "at0002.0.1",
