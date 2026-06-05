@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.1.0-alpha.2",
+      "sem_ver" : "4.2.0-alpha.2",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "3c118cf500c7c00cc168b41c55a23c58",
+      "MD5-CAM-1.0.1" : "e20cf801f3dd96611e00444f1393e57d",
       "PARENT:MD5-CAM-1.0.1" : "7A6FC5F934FA0416F9ED5EE99EE23557"
     },
     "details" : {
@@ -95,7 +95,7 @@
       }, {
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "SECTION",
-        "occurrences" : "0..1",
+        "occurrences" : "0..*",
         "nodeId" : "at0.4",
         "attributes" : [ ],
         "attributeTuples" : [ ],
@@ -113,7 +113,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "plan_element.v3",
+          "text" : "plan element",
           "description" : "A managed list of any combination of archetypes that will support the accurate recording of a plan. This plan will describe the care or treatment of an individual."
         }
       },
