@@ -65,7 +65,7 @@
       "value" : "Aandachtsgebied",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0000",
+    "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
     "archetype_details" : {
       "_type" : "ARCHETYPED",
       "archetype_id" : {
@@ -185,7 +185,7 @@
       "value" : "Doel en acties",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0000",
+    "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
     "uid" : {
       "_type" : "HIER_OBJECT_ID",
       "value" : "5504685a-f871-4c3a-99d2-69144b35fddc"
@@ -206,7 +206,7 @@
         "value" : "Doel",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0000",
+      "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -286,7 +286,7 @@
         "value" : "Acties",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0000",
+      "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -458,7 +458,7 @@
       "value" : "Doel en acties",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0000",
+    "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
     "uid" : {
       "_type" : "HIER_OBJECT_ID",
       "value" : "dbf11638-a649-484b-b35b-91073b3271cf"
@@ -479,7 +479,7 @@
         "value" : "Doel",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0000",
+      "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -559,7 +559,7 @@
         "value" : "Acties",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0000",
+      "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {

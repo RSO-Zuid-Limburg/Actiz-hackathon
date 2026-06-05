@@ -65,7 +65,7 @@
       "value" : "Aandachtsgebied",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0000",
+    "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
     "archetype_details" : {
       "_type" : "ARCHETYPED",
       "archetype_id" : {
@@ -185,7 +185,7 @@
       "value" : "Doel en acties",
       "mappings" : [ ]
     },
-    "archetype_node_id" : "at0000",
+    "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
     "uid" : {
       "_type" : "HIER_OBJECT_ID",
       "value" : "9cd4d96e-640d-4994-a5a4-3f4048e654e2"
@@ -206,7 +206,7 @@
         "value" : "Doel",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0000",
+      "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
@@ -286,7 +286,7 @@
         "value" : "Acties",
         "mappings" : [ ]
       },
-      "archetype_node_id" : "at0000",
+      "archetype_node_id" : "openEHR-EHR-SECTION.adhoc.v1",
       "archetype_details" : {
         "_type" : "ARCHETYPED",
         "archetype_id" : {
